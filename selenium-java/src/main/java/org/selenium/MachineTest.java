@@ -1,6 +1,4 @@
 package org.selenium;
-
-import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,8 +18,8 @@ public class MachineTest {
     }
     public static void clickElement(WebDriver driver, By locator){
         try{
-        driver.findElement(locator).click();
-    } catch (Exception e) {
+            driver.findElement(locator).click();
+        } catch (Exception e) {
             System.out.println("Error clicking element: " + e.getMessage());
         }
     }
