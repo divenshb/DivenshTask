@@ -123,8 +123,8 @@ public class MachineTest extends Basescreen {
             clickElement(driver,By.xpath("(//*[@class='input-group justify-content-end'])[23]"));
             Sendkey(driver,By.xpath("(//*[@type='number'])[2]"),"3000000");
             Thread.sleep(1000);
-            clickElement(driver,By.xpath("(//*[@class='input-group justify-content-end'])[18]"));
-            Sendkey(driver,By.xpath("(//*[@class='form-control bg-input ng-pristine ng-valid ng-touched'])[9]"),"TestTest");
+            clickElement(driver,By.xpath("(//*[@class='input-div'])[28]"));
+            Sendkey(driver,By.xpath("//*[@id='REMARK']"),"TestTest");
             Thread.sleep(1000);
             clickElement(driver,By.xpath("(//*[@class='input-group justify-content-end'])[21]"));
             Sendkey(driver,By.xpath("//*[@id='TENDER_CLOSURE_REMARK']"),"//*[@id='TENDER_CLOSURE_REMARK']");
